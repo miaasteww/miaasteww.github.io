@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
+	<link rel="stylesheet" href="styles.css">
 	<meta charset="utf-8">
 </head>
 <body>
-<!--my comment-->
 	<div id="content">
 		<header>
-		<h1>BEST WEBISTE EVER</h1>
+		<h1>Main Heading</h1>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
 			</ul>
 		</nav>
-		<main class="container">
-			
-		</main>
+			<main id="home-page">
+				<img class="mySlides" id="nakoma" src="images/nakoma.jpeg">
+				<img class="mySlides" class="hidden" id="kendyl" src="images/kendyl.jpeg">
+				<img class="mySlides" class="hidden" id="pattys" src="images/pattys.jpeg">
+				<img class="mySlides" class="hidden" id="gianna" src="images/gianna.jpeg">
+				<section>
+					<h3>About Me</h3>
+						<p id="one"> My name is Mia Stewart, and I am a sophomore biology major from Chicago. This is my second year at USC and I am loving it. I have three siblings and two dogs at home that I miss, but I love living where it's warm and pretty close to the ocean. I work part-time during the school year at a pet store, to afford living in South Carolina.</p>
+						<p class="hidden" id="two">My favorite thing to do is hang out with my friends. We love planning family dinner nights every week, going out on weekends, and having study sessions when we all need motivating. I am currently in the process of adopting a black cat named Karma. I am so excited to be a cat mom soon!</p>
+						<a href="#" id="click" onclick="showP()">See More...</a>
+				</section>
+				<section>
+					<h3>My Future Career Plans</h3>
+						<p>I am not 100% sure what I want to do with my life yet. My current plan is to become a high school biology teacher. I've always dreamed about teaching growing up, so I figured it would be a good choice for me. I also love studying biology which is why I decided to major in it.</p>
+						<p>I am hoping to move to the Charleston area after school and teach there. I love living in warmer climates than Chicago and being close to the beach. If that doesn't work out, I will most likely move back closer to my hometown to be with my family. I am just trusting that life leads me to where I am meant to be.</p>
+						<h4>What I Learned From Computer Science</h4>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/HquMe9dnSS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</section>
+			</main>
 		<footer>
 			<p>&copy;My Copyright</p>
 		</footer>
 	</div>
-	
+	<script src="script.js"></script>
 </body>
-</html> 
+</html>

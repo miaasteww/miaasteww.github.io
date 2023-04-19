@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="content">
+		<header>
+		<h1>Main Heading</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+			<main>
+				<h2>University of South Carolina Quiz</h2>
+				<div id="quiz">
+				<p>
+					<label for="question-one">What is USC's mascot?</label>
+				</p>
+				<p>
+					<select id="question-one">
+						<option>Bulldog</option>
+						<option>Tiger</option>
+						<option>Gamecock</option>
+						<option>Gator</option>
+					</select>
+				</p>
+				<p>
+					<label for="question-two">What city is USC located in?</label>
+				</p>
+				<p>
+					<select id="question-two">
+						<option>Charleston</option>
+						<option>Columbia</option>
+						<option>Greenville</option>
+						<option>Myrtle Beach</option>
+					</select>
+				</p>
+				<p>
+					<label for="question-three">What is the mascot's name?</label>
+				</p>
+				<p>
+					<select id="question-three">
+						<option>Cocky</option>
+						<option>Sir Big Spur</option>
+						<option>Rocky</option>
+						<option>Fred</option>
+					</select>
+				</p>
+				<p>
+					<label for="question-four">What is the football stadium named?</label>
+				</p>
+				<p>
+					<select id="question-four">
+						<option>Darla-Moore</option>
+						<option>Bryant-Denny</option>
+						<option>Jordan-Hare</option>
+						<option>Williams-Brice</option>
+					</select>
+				</p>
+				<button id="submit-answers" onclick="showResult()">Sumbit</button>
+				</div>
+				<p id="result">
+				
+				</p>
+			</main>
+		<footer>
+			<p>&copy;My Copyright</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

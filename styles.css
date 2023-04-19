@@ -1,0 +1,102 @@
+#content{
+	width:80%;
+	margin:auto;
+}
+header, main, footer, nav{
+	padding:5px;
+}
+nav ul{
+	list-style-type:none;
+	text-align:center;
+}
+nav a{
+	text-decoration:none;
+	padding:5px;
+	color:black;
+}
+nav li{
+	display:inline;
+	background:#FAB6CC;
+	padding:5px;
+}
+body{
+	font-family:arial;
+	background:#7A5964;
+}
+header{
+	background:#FB6C99;
+	text-align:center;
+}
+nav{
+	background:#FB6C99;
+}
+main{
+	background:#FAB6CC;
+}
+footer{
+	background:#FB6C99;
+	text-align:center;
+}
+/*hover*/
+nav li:hover{
+	background:#7A5964;
+}
+/*image*/
+#chicago{
+	max-width: 1000 px;
+	height: 300px;
+	display:block;
+	margin:auto;
+}
+
+#home-page{
+	text-align:center;
+}
+
+
+/*media*/
+@media screen and(max-width:600 px){
+	nav li{
+		display:block;
+		width:100%;
+	}
+}
+	
+	
+	
+	main{
+		width: 100%;
+	}
+	#chicago{
+		width:100%;
+	}
+}
+/*contact page*/
+#contact{
+	text-align:left;
+}
+#name{
+	display:block;
+	width:25%
+}
+#email{
+	display:block;
+	width:25%
+}
+#message{
+	display:block;
+	width:25%
+}
+
+.hidden{
+	display:none;
+}
+#quiz{
+	text-align:left;
+}
+
+img{
+	height:400px;
+	width:300px;
+	margin:auto;
+}
